@@ -1,0 +1,5 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Checkout\Block\Checkout\LayoutProcessor">
+        <plugin name="add_custom_notes_checkout_form" type="Dev\Testing\Plugin\Checkout\Block\Checkout\LayoutProcessor" sortOrder="10"/>
+    </type>
+</config>
